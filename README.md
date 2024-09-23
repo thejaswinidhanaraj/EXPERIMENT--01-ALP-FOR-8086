@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :THEJASWINI D
+Roll no :212223110059
+Date of experiment :23.09.2024
 
 
 
@@ -78,25 +78,86 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
-
-
+```
+mov AL,53H;
+mov BL,24H;
+Add AL,BL;
+HLT;
+```
 ## Output  
- 
+![1 PMC](https://github.com/user-attachments/assets/e43cd976-7657-46e8-bb7d-79152489430a)
+
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+mov AL,53H;
+mov BL,24H;
+sub AL,BL;
+HLT;
+```
 ## Output  
+![2 PMC](https://github.com/user-attachments/assets/3feb1224-a823-443f-9a21-7b415ebf0cec)
 ## Multiplication alp 
+```
+mov AL,53H;
+mov BL,24H;
+mul AL,BL;
+HLT;
+```
  ## Output  
-
+![5 PMC](https://github.com/user-attachments/assets/db3c1c7f-2e8f-4a4e-a05d-4f4cf5b04b50)
 
 ## Division alp 
-
+```
+mov AL,53H;
+mov BL,24H;
+Div AL,BL;
+HLT;
+```
 ## Output  
+![4 PMC](https://github.com/user-attachments/assets/79cabaaf-b868-4d3c-9b52-c8c0b7ec83a8)
 
+## Programs for Logical operations
+## Logical AND
+```
+mov AL,53H;
+mov BL,24H;
+AND AL,BL;
+HLT;
+```
+## Output:
+![3 PMC](https://github.com/user-attachments/assets/44d12211-d622-46e7-bb82-09359559a2f8)
+
+## Logical OR:
+```
+mov AL,53H;
+mov BL,24H;
+OR AL,BL;
+HLT;
+```
+## Output:
+![8 PMC](https://github.com/user-attachments/assets/d5cd7869-42d9-40f7-8244-535d0c8ef543)
+
+## Logical Not:
+```
+mov AL,53H;
+not AL;
+HLT;
+```
+## Output:
+![7 PMC](https://github.com/user-attachments/assets/cdda02f3-8b0f-4eb6-8789-f35afcc8a8f2)
+## Logical XOR:
+```
+mov AL,53H;
+mov BL,24H;
+XOR AL,BL;
+HLT;
+```
+## OUTPUT:
+![6](https://github.com/user-attachments/assets/e97c638a-2725-49d2-811d-f188a6576a84)
 
 ## Result :
- 
+ Thus the program for arithmetic operations and logical operations are complete
 
 
 
